@@ -6,7 +6,6 @@ $(document).ready(function () {
     });
 
     function checkStrength(password) {
-        var strength = 0;
         if (password.length <= 6) {
             $('#result').removeClass();
             $('#result').addClass('short');
